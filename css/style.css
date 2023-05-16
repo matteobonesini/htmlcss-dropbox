@@ -22,6 +22,10 @@ html {
     background-color: #0061ff;
     color: white;
 }
+.btn-long {
+    width: 100%;
+    padding: 10px 0;
+}
 .btn-trasparent {
     background-color: white;
     color: black;
@@ -37,8 +41,15 @@ html {
 .col-1-5 {
     width: calc(100% / 5);
 }
-
-
+.text-grey {
+    color: grey;
+}
+.short-hr {
+    width: 15%;
+}
+.short-hr hr {
+    border: 2px solid #686868;
+}
 
 
 /* HEADER */
@@ -84,12 +95,6 @@ header a {
 footer {
     background-color: #000000;
     color: white;
-}
-footer .short-hr {
-    width: 10%;
-}
-footer .short-hr hr {
-    border: 2px solid #686868;
 }
 footer .footer-top .my-row {
     padding: 70px 0;
