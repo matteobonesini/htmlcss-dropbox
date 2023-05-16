@@ -1,0 +1,58 @@
+/* MAIN */
+main .jumbotron {
+    background-color: #b4d0e7;
+}
+main .jumbotron .title {
+    font-size: 1.5em;
+    padding: 20px 0;
+}
+main .jumbotron .jumbotron-move-down {
+    position: relative;
+    top: 60px;
+}
+main .jumbotron .jumbotron-bottom .description {
+    width: 35%;
+}
+main .jumbotron .jumbotron-bottom .description button {
+    margin: 15px 0;
+}
+main .jumbotron .jumbotron-bottom .dropbox-preview {
+    width: 65%;
+}
+main .jumbotron .jumbotron-bottom .dropbox-preview img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+.debug main {
+    min-height: 100vh;
+    background-color: lightcoral;
+}

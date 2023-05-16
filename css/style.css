@@ -10,17 +10,26 @@ html {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .list-style-type-none {
     list-style-type: none;
 }
-button {
-    color: white;
-    background-color: #0061ff;
+.my-button {
     border: none;
     padding: 5px 10px;
+    background-color: #0061ff;
+    color: white;
+}
+.btn-trasparent {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.btn-white {
+    background-color: white;
+    color: black;
 }
 .my-row {
     display: flex;
@@ -38,6 +47,7 @@ header {
     display: flex;
     justify-content: space-between;
     position: sticky;
+    z-index: 1;
     top: 0;
     background-color: white;
 }
@@ -70,9 +80,6 @@ header a {
 }
 
 
-/* MAIN */
-
-
 /* FOOTER */
 footer {
     background-color: #000000;
@@ -95,8 +102,6 @@ footer .footer-top .col-1-5 ul li a {
     text-decoration: none;
     font-size: 0.7em;
 }   
-
-
 footer .footer-bottom {
     padding: 40px 0;
     font-size: 0.8em;
@@ -107,15 +112,11 @@ footer .footer-bottom {
 
 
 /* DEBUG */
+
 /* .debug header > * {
     border: 2px dotted black ;
-} */
-
-.debug main {
-    min-height: 100vh;
-    background-color: lightcoral;
 }
 
-/* .debug footer .col-1-5 {
+.debug footer .col-1-5 {
     border: 1px solid white;
 } */
