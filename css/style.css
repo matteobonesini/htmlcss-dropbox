@@ -13,3 +13,72 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
+button {
+    color: white;
+    background-color: #0061ff;
+    border: none;
+    padding: 5px 10px;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header .header-left, .header-right, header nav {
+    display: inline-block;
+}
+header .header-right {
+    text-align: right;
+}
+header .header-logo img {
+    height: 20px;
+    vertical-align: middle;
+}
+header ul {
+    display: inline-block;
+    list-style-type: none;
+}
+header ul li {
+    display: inline-block;
+}
+header .header-left ul li:nth-child(n + 2) {
+    margin-left: 20px;
+}
+header .header-right ul li:nth-last-child(n + 2) {
+    margin-right: 20px;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+
+/* MAIN */
+
+
+/* FOOTER */
+footer {
+    background-color: #000000;
+}
+
+
+
+
+
+
+/* DEBUG */
+.debug header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.debug main {
+    min-height: 100vh;
+    background-color: lightskyblue;
+}
+.debug footer {
+    min-height: 20vh;
+}
