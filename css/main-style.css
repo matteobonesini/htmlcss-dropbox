@@ -5,7 +5,6 @@ main .jumbotron {
     background-color: #b4d0e7;
 }
 main .jumbotron .title {
-    font-size: 2em;
     padding: 20px 0;
 }
 main .jumbotron .jumbotron-move-down {
@@ -32,7 +31,6 @@ main .plan-price {
 }
 main .plan-price h2 {
     padding: 20px 0;
-    font-size: 2em;
 }
 main .plan-price form label:first-of-type {
     margin-right: 30px;
@@ -61,9 +59,6 @@ main .plan-price .customized-plan .plan-type  {
 main .plan-price .plan-description {
     padding: 30px 30px;
 }
-main .plan-price .plan-description h3 {
-    font-size: 1.5em;
-}
 main .plan-price .plan-description h5 {
     padding: 20px 0 20px;
 }
@@ -73,7 +68,7 @@ main .plan-price .plans .plan-description .specs {
 main .plan-price .plans .plan-description .specs > *:nth-child(odd) {
     padding: 10px 0;
 }
-main .plan-price .plans .plan-description .my-row .spec  {
+main .plan-price .plans .plan-description .my-row .spec {
     padding-left: 7px;
     font-size: 0.9em;
 }
@@ -102,28 +97,64 @@ main .partner {
     margin-top: 50px;
     padding: 50px 0;
 }
-main .partner .col-3-5 {
-    width: calc((100% / 5) * 3);
-}
 main .partner .col-2-5 {
-    width: calc((100% / 5) * 2);
     padding: 30px;
 }
 main .partner .col-3-5 img {
     width: 100%;
 }
 main .partner .col-2-5 h3{
-    font-size: 1.5em;
     padding: 20px 0;
 }
 main .partner .col-2-5 p{
     padding: 10px 0 30px;
 }
 
+/* BUSINESS FEATURE */
+
+
+/* CLIENTS */
+main .clients {
+    padding: 100px;
+}
+main .clients h2 {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+/* IMPORTANT CLIENTS */
+
+
+/* FREE TRIAL */
+main .free-trial {
+    padding: 100px 0;
+    background-color: #b4d0e7;
+}
+main .free-trial .col-3-5 {
+    color: #5f0729;
+    padding-right: 150px;
+}
+main .free-trial .col-2-5 {
+    padding-left: 160px;
+}
+
+
+/* FAQ */
+
+
 /* DEBUG */
 .debug main {
     background-color: whitesmoke;
 }
-.debug main .partner {
-    background-color: whitesmoke;
+.debug main .business-feature {
+    min-height: 50vh;
+    background-color: lightseagreen;
+}
+.debug main .important-clients {
+    min-height: 50vh;
+    background-color: lightpink;
+}
+.debug main .faq {
+    min-height: 50vh;
+    background-color: lightgreen;
 }
