@@ -50,7 +50,6 @@ main .plan-price .plans .plan .plan-type  {
     padding: 10px 0;
     text-align: center;
 }
-
 main .plan-price .customized-plan {
     border: 1px solid gray;
 }
@@ -84,8 +83,6 @@ main .plan-price .plans .plan-description .buy-now {
 main .plan-price .plans .plan-description .highlights .fa-check {
     color: #457eff;
 }
-
-
 main .plan-price .customized-plan .plan-description .my-row {
     justify-content: space-between;
 }
@@ -100,10 +97,33 @@ main .plan-price .customized-plan .plan-description .contact {
     width: calc((100% - 100px - 30px) / 3 - 30px);
 }
 
-
-
+/* PARTNER */
+main .partner {
+    margin-top: 50px;
+    padding: 50px 0;
+}
+main .partner .col-3-5 {
+    width: calc((100% / 5) * 3);
+}
+main .partner .col-2-5 {
+    width: calc((100% / 5) * 2);
+    padding: 30px;
+}
+main .partner .col-3-5 img {
+    width: 100%;
+}
+main .partner .col-2-5 h3{
+    font-size: 1.5em;
+    padding: 20px 0;
+}
+main .partner .col-2-5 p{
+    padding: 10px 0 30px;
+}
 
 /* DEBUG */
 .debug main {
+    background-color: whitesmoke;
+}
+.debug main .partner {
     background-color: whitesmoke;
 }
