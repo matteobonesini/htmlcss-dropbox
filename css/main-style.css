@@ -3,6 +3,7 @@
 /* JUMBOTRON */
 main .jumbotron {
     background-color: #b4d0e7;
+    margin-bottom: 60px;
 }
 main .jumbotron .title {
     padding: 20px 0;
@@ -16,6 +17,11 @@ main .jumbotron .jumbotron-bottom .description {
 }
 main .jumbotron .jumbotron-bottom .description button {
     margin: 15px 0;
+    font-size: 16px;
+}
+main .jumbotron .jumbotron-bottom .description i {
+    padding-top: 40px;
+    font-size: 2.5em;
 }
 main .jumbotron .jumbotron-bottom .dropbox-preview {
     width: 65%;
@@ -26,11 +32,23 @@ main .jumbotron .jumbotron-bottom .dropbox-preview img {
 
 /* PLAN-PRICE */
 main .plan-price {
-    margin-top: 60px;
     padding: 50px 0;
 }
 main .plan-price h2 {
     padding: 20px 0;
+}
+main .plan-price input {
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #797979;
+    transition: 0.2s all linear;
+    vertical-align: sub;
+  }
+  
+main .plan-price input:checked {
+border: 5px solid #0061ff;
 }
 main .plan-price form label:first-of-type {
     margin-right: 30px;
@@ -41,7 +59,7 @@ main .plan-price .plans {
 main .plan-price .plans .plan {
     border: 1px solid gray;
 }
-main .plan-price .plans .plan .plan-type  {
+main .plan-price .plans .plan .plan-type {
     border-bottom: 1px solid gray;
     padding: 10px 0;
     text-align: center;
@@ -63,18 +81,26 @@ main .plan-price .plan-description h5 {
 main .plan-price .plans .plan-description .specs {
     padding: 30px 0;
 }
-main .plan-price .plans .plan-description .specs > *:nth-child(odd) {
+main .plan-price .plans .plan-description .specs ul {
+    padding-left: 20px;
+}
+main .plan-price .plans .plan-description .specs ul li {
     padding: 10px 0;
 }
-main .plan-price .plans .plan-description .my-row .spec {
-    padding-left: 7px;
-    font-size: 0.9em;
+main .plan-price .plans .plan-description .specs ul.user li {
+    list-style-image: url("../img/user-solid.svg");
+}
+main .plan-price .plans .plan-description .specs ul.folder li {
+    list-style-image: url("../img/folder-solid.svg");
+}
+main .plan-price .plans .plan-description .specs ul.share li {
+    list-style-image: url("../img/share-nodes-solid.svg");
+}
+main .plan-price .plans .plan-description .specs ul.check li {
+    list-style-image: url("../img/check-solid.svg");
 }
 main .plan-price .plans .plan-description .buy-now {
     padding: 30px 0;
-}
-main .plan-price .plans .plan-description .highlights .fa-check {
-    color: #457eff;
 }
 main .plan-price .customized-plan .plan-description .my-row {
     justify-content: space-between;
@@ -110,7 +136,7 @@ main .partner .col-2-5 p{
 
 /* BUSINESS FEATURE */
 main .business-feature {
-    padding: 50px 0;
+    padding: 60px 0 50px;
 }
 main .business-feature .my-row .col-1-3-gutter {
     margin-top: 50px;
@@ -240,3 +266,5 @@ main .faq .single-faq .answer-drop {
 /* .debug main {
     background-color: lightgrey;
 }  */
+
+
