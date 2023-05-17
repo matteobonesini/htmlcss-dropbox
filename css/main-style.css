@@ -132,7 +132,67 @@ main .clients h2 {
 }
 
 /* IMPORTANT CLIENTS */
-
+main .important-clients {
+    background-color: #f5f5f5;
+}
+main .important-clients .square {
+    height: calc(100vw / 3);
+    width: calc(100% / 3);
+}
+main .important-clients .square.center {
+    padding: 50px;
+    font-size: 0.75em;
+}
+main .important-clients .square.center img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+main .important-clients .square.center p {
+    padding: 30px 0 40px;
+}
+main .important-clients .square .my-row {
+    height: 100%;
+    flex-wrap: wrap;
+}
+main .important-clients .square .square-small {
+    height: 50%;
+    width: 50%;
+    padding: 0 50px;
+    line-height: calc((100vw / 3) / 2);
+}
+main .important-clients .square.left .square-small:nth-child(1) {
+    border: 15px solid #d1ebce;
+    /* line-height e padding: sottratte delle misure del border */
+    line-height: calc((100vw / 3) / 2 - 30px);
+    padding: 0 35px;
+    background-color: #a2d39b;
+}
+main .important-clients .square.left .square-small:nth-child(2) {
+    background-color: #61082b;
+}
+main .important-clients .square.left .square-small:nth-child(3) {
+    background-color: #0093ce;
+}
+main .important-clients .square.left .square-small:nth-child(4) {
+    background-color: #ff1c1c;
+}
+main .important-clients .square.right .square-small:nth-child(1) {
+    background-color: #d5001f;
+}
+main .important-clients .square.right .square-small:nth-child(2) {
+    background-color: #b4d0e7;
+}
+main .important-clients .square.right .square-small:nth-child(3) {
+    background-color: #0d2481;
+}
+main .important-clients .square.right .square-small:nth-child(4) {
+    background-color: #ffd830;
+}
+main .important-clients .square .square-small img {
+    width: 100%;
+    vertical-align: middle;
+    filter: invert(1);
+}
 
 /* FREE TRIAL */
 main .free-trial {
@@ -153,13 +213,9 @@ main .free-trial .col-2-5 {
 
 /* DEBUG */
 .debug main {
-    background-color: whitesmoke;
-}
-.debug main .important-clients {
-    min-height: 50vh;
-    background-color: lightpink;
-}
+    background-color: lightgrey;
+} 
 .debug main .faq {
     min-height: 50vh;
-    background-color: lightgreen;
+    background-color: lightsalmon;
 }

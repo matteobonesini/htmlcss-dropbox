@@ -64,11 +64,9 @@ h3 {
 .text-grey {
     color: grey;
 }
-.short-hr {
+hr {
     width: 15%;
-}
-.short-hr hr {
-    border: 2px solid #686868;
+    border: 1px solid #686868;
 }
 
 
