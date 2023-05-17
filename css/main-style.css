@@ -36,12 +36,10 @@ main .plan-price form label:first-of-type {
     margin-right: 30px;
 }
 main .plan-price .plans {
-    justify-content: space-between;
     padding: 50px 0;
 }
 main .plan-price .plans .plan {
     border: 1px solid gray;
-    width: calc((100% - 100px) / 3);
 }
 main .plan-price .plans .plan .plan-type  {
     border-bottom: 1px solid gray;
@@ -111,7 +109,18 @@ main .partner .col-2-5 p{
 }
 
 /* BUSINESS FEATURE */
-
+main .business-feature {
+    padding: 50px 0;
+}
+main .business-feature .my-row .col-1-3-gutter {
+    margin-top: 50px;
+}
+main .business-feature .my-row .col-1-3-gutter img {
+    width: 100%;
+}
+main .business-feature .my-row .col-1-3-gutter p {
+    padding-top: 20px;
+}
 
 /* CLIENTS */
 main .clients {
@@ -145,10 +154,6 @@ main .free-trial .col-2-5 {
 /* DEBUG */
 .debug main {
     background-color: whitesmoke;
-}
-.debug main .business-feature {
-    min-height: 50vh;
-    background-color: lightseagreen;
 }
 .debug main .important-clients {
     min-height: 50vh;
