@@ -85,46 +85,79 @@ hr {
 
 /* HEADER */
 header {
-    padding: 20px;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     position: sticky;
     z-index: 1;
     top: 0;
     background-color: white;
-}
-header .header-left, .header-right, header nav {
-    display: inline-block;
-}
-header .header-right {
-    text-align: right;
+    min-height: 70px;
 }
 header .header-logo img {
     height: 20px;
     vertical-align: middle;
 }
-header ul {
-    display: inline-block;
-}
 header ul li {
     display: inline-block;
+    position: relative;
 }
-header .header-left ul li:nth-child(n + 2) {
-    margin-left: 20px;
+header ul li:not(.li-img, .li-button) {
+    line-height: 70px;
 }
-header .header-right ul li:nth-last-child(n + 2) {
-    margin-right: 20px;
+header ul li.li-button {
+    margin-left: 10px;
 }
-header ul li a {
+header ul li.li-img {
+    margin-right: 10px;
+}
+header ul li a:not(.header-logo) {
+    display: block;
     color: black;
     text-decoration: none;
     font-size: 0.8em;
+    padding: 0 10px;
 }
-header ul li a:hover {
+header ul li a:hover:not(.header-logo) {
     color: #0061ff;
-    text-decoration: underline #0061ff;
+    text-decoration: underline #0061ff 2px;
     text-underline-offset: 5px;
-    text-decoration-thickness: 2px;
+    background-color: #f2eee8;
+}
+header li .dropdown {
+    position: absolute;
+    z-index: 1;
+    background-color: #f2eee8;
+    display: none;
+    width: max-content;
+}
+header li .dropdown.left-down{
+    right: 0;
+}
+header li .dropdown.single-down{
+    width: 100%;
+}
+header li .dropdown-container {
+    display: flex;
+}
+header li .dropdown-container ul:nth-last-child(n + 2) {
+    margin-right: 50px;
+}
+header li .dropdown-container ul li:first-child {
+    font-weight: bold;
+    font-size: 0.9em;
+    padding-bottom: 10px;
+}
+header li .dropdown-container ul a {
+    padding: 10px 0;
+}
+header li:hover .dropdown {
+    padding: 20px 10px 20px;
+    display: block;
+}
+header li .dropdown li {
+    display: block;
+    line-height: normal;
 }
 
 
