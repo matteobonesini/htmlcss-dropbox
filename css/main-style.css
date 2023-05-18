@@ -22,6 +22,7 @@ main .jumbotron .jumbotron-bottom .description button {
 main .jumbotron .jumbotron-bottom .description i {
     padding-top: 40px;
     font-size: 2.5em;
+    color: black;
 }
 main .jumbotron .jumbotron-bottom .dropbox-preview {
     width: 65%;
@@ -82,19 +83,10 @@ main .plan-price .plans .plan-description .specs {
     padding: 30px 0;
 }
 main .plan-price .plans .plan-description .specs ul {
-    padding-left: 20px;
+    margin-left: 30px;
 }
 main .plan-price .plans .plan-description .specs ul li {
     padding: 10px 0;
-}
-main .plan-price .plans .plan-description .specs ul.user li {
-    list-style-image: url("../img/user-solid.svg");
-}
-main .plan-price .plans .plan-description .specs ul.folder li {
-    list-style-image: url("../img/folder-solid.svg");
-}
-main .plan-price .plans .plan-description .specs ul.share li {
-    list-style-image: url("../img/share-nodes-solid.svg");
 }
 main .plan-price .plans .plan-description .specs ul.check li {
     list-style-image: url("../img/check-solid.svg");
