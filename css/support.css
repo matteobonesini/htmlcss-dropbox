@@ -1,0 +1,27 @@
+/* MAIN */
+main {
+    background-color: whitesmoke;
+}
+main .error {
+    text-align: center;
+    padding: 50px;
+}
+main .error img {
+    height: 40vh;
+}
+main .error .error-code {
+    font-size: 3em;
+    padding: 10px 0 30px;
+}
+main .error .error-message {
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+
+
+
+
+/* DEBUG */
+/* .debug main {
+    background-color: lightblue;
+} */

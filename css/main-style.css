@@ -84,6 +84,7 @@ main .plan-price .plans .plan-description .specs {
 }
 main .plan-price .plans .plan-description .specs ul {
     margin-left: 30px;
+    font-size: 0.9em;
 }
 main .plan-price .plans .plan-description .specs ul li {
     padding: 10px 0;
