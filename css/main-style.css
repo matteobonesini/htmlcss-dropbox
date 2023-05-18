@@ -234,8 +234,10 @@ main .faq h2 {
     padding-bottom: 40px;
 }
 main .faq .single-faq {
-    padding: 35px 0;
+    padding: 35px 30px;
     border-top: 1px solid #686868;
+    display: flex;
+    flex-wrap: wrap;
 }
 main .faq .single-faq:last-child {
     border-bottom: 1px solid #686868;
@@ -247,10 +249,25 @@ main .faq .single-faq .question {
 main .faq .single-faq .answer-drop {
     display: inline-block;
     text-align: right;
-    width: calc(20% - 50px);
+    width: 20%;
 }
-
-
+main .faq .single-faq .answer-drop i {
+    transition: 0.5s;
+}
+main .faq .single-faq:active .answer-drop i {
+    transform: rotate(180deg);
+}
+main .faq .single-faq .answer {
+    width: 80%;
+    overflow: hidden;
+    padding-top: 0;
+    max-height: 0;
+    transition: max-height 0.5s linear, padding-top 0.5s linear;
+}
+main .faq .single-faq:active .answer {
+    padding-top: 20px;
+    max-height: 150px;
+}
 
 
 
